@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h1>Register</h1>
+<form action="http://www.betweentwolights.press" method="get">
+
+	<label for="FirstName">First Name:</label>
+	<input name="firstname" type="text" id="FirstName" placeholder="John" required>
+	<label for="LastName">Last Name:</label>
+	<input name="lastname" type="text" id="LastName" placeholder="Smith" required><br>
+	
+	<label for="Male">Male</label>
+	<input type="radio" id="Male" name="gender">
+	<label for="Female">Female</label>
+	<input type="radio" id="Female" name="gender">
+	<label for="Other">Other</label>
+	<input type="radio" id="Other" name="gender"><br>
+	
+	<label for="Email">Email:</label>
+	<input type="email" id="Email" placeholder="your email" required>
+	<label for="Password">Password:</label>
+	<input type="password" id="Password" placeholder="your password" minlength="5" maxlength="10" required><br>
+	
+	<label for="Birthday">Birthday:</label>
+	<select name="Month" id="BirthMonth">Month
+		<option value="January">January</option>
+		<option value="February">February</option>
+		<option value="March">March</option>
+		<option value="April">April</option>
+		<option value="May">May</option>
+		<option value="June">June</option>
+		<option value="July">July</option>
+		<option value="August">August</option>
+		<option value="September">September</option>
+		<option value="October">October</option>
+		<option value="November">November</option>
+		<option value="December">December</option>
+	</select>
+	<select name="Day" id="BirthdateDay">Day
+		<option value="first">1</option>
+		<option value="second">2</option>
+		<option value="third">3</option>
+		<option value="fourt">4</option>
+		<option value="fifth">5</option>
+		<option value="sixth">6</option>
+		<option value="seventh">7</option>
+		<option value="eighth">8</option>
+		<option value="ninth">9</option>
+		<option value="tenth">10</option>
+		<option value="eleventh">11</option>
+		<option value="twelvth">12</option>
+		<option value="thirteenth">13</option>
+		<option value="fourteenth">14</option>
+		<option value="fifteenth">15</option>
+		<option value="sixteenth">16</option>
+		<option value="seventeenth">17</option>
+		<option value="eighteenth">18</option>
+		<option value="nineteenth">19</option>
+		<option value="twentieth">20</option>
+		<option value="twenty-first">21</option>
+		<option value="twenty-second">22</option>
+		<option value="twenty-third">23</option>
+		<option value="twenty-fourth">24</option>
+		<option value="twenty-fifth">25</option>
+		<option value="twenty-sixth">26</option>
+		<option value="twenty-seventh">27</option>
+		<option value="twenty-eighth">28</option>
+		<option value="twenty-ninth">29</option>
+		<option value="thirtyith">30</option>
+		<option value="thirt-first">31</option>
+	</select>
+	<select name="year" id="BirthYear">Year
+		<option value="1991">1991</option>
+		<option value="1992">1992</option>
+	</select><br>
+	
+	<label for="termscheck">I agree to the terms and conditions</label>
+	<input type="checkbox" id="termscheck"><br>
+	
+	<input type="submit">
+	
+</form>
+</body>
+</html>
